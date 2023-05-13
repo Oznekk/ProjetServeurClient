@@ -1,0 +1,20 @@
+/*
+Css peu utilisé comme constaté
+*/
+
+body {
+  background-color: #A0A0A0;
+  text-align:center;
+}
+
+#conteneur {
+  background-color: white;
+  
+  height: auto;
+  margin: auto; 
+  
+  
+  padding: 1em 2em;
+  font-family: Verdana, Arial, serif;
+}
+

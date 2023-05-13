@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+  <!--
+- Auteur: Maraldi Kenzo
+- Version: 3.0
+- Date: 13.05.2023
+-->
+  <head>
+    <title>SupraHeroz</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+    <script type="text/javascript" src="javascripts/helpers/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="javascripts/controllers/indexCtrl.js"></script>
+
+  </head>
+  <body>
+   
+    <div id="form">
+       <!--ce text field permet à l'utilisateur de rentrer son identifiant-->
+      <input type="identifiant" name="txtLoginId" id="txtLoginId" />
+       <!--ce text field permet à l'utilisateur de rentrer son mot de passe-->
+      <input type="password" name="txtLoginPw" id="txtLoginPw" />
+      <!--boutton pour test une connexion ou créer un nouvel utilisateur-->
+      <button id="connect" onclick="connect()">Connection mon pote</button>
+      <button id="nouveau" onclick="nouveau()">Nouveau Compte</button>
+      <!--boutton pour modifier et un autre pour supprimer un utilisateur-->
+      <button id="supprimer" onclick="suppr()">Supprimer compte</button>
+  </div>
+    <div id="conteneur">
+      <!--Titre et image-->
+      <h1>SupraHeroz: Login page </h1>
+      <img src="images/rf.jpg" alt="Logo site">
+
+      
+        
+    
+    </div>
+  </body>
+</html>
+
